@@ -1,0 +1,16 @@
+{
+  "name": "report-api",
+  "version": "1.0.0",
+  "description": "API for reporting websites",
+  "main": "api/index.js",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler publish"
+  },
+  "dependencies": {
+    "itty-router": "^4.0.13"
+  },
+  "devDependencies": {
+    "wrangler": "^3.0.0"
+  }
+}
